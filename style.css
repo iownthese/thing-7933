@@ -102,3 +102,9 @@ a:link {
     height: 1000px;
     align-content: center;
   }
+
+.fix {
+    margin-left: 55px;
+    font-family: 'Archivo', sans-serif;
+}
+    
