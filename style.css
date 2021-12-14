@@ -1,0 +1,104 @@
+h1 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 400%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: 'Archivo', sans-serif;
+    margin-left: 55px;
+    font-size: 150%;
+}
+
+h3 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 100%;
+    margin-left: 55px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+.center{
+    display: block;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gradient {
+    font-family: 'Archivo', sans-serif;
+    font-size: 400%;
+    background: linear-gradient(to right, crimson,orange, rgb(255, 208, 0),green,blue,indigo,violet);
+    background-size: 200% 200%;
+    animation: rainbow 4s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:rgba(0,0,0,1);
+    display:block;
+    transition: color .2s ease-in-out;
+    text-transform:uppercase;
+    left: 0;
+    top: 0;
+
+}
+.gradient:hover{
+    color:rgba(0,0,0,0);
+  }
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+  }
+
+.split1 {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    top: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.split2 {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    top: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 50px 50px;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    height: 1000px;
+    align-content: center;
+  }
